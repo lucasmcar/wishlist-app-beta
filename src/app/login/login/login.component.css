@@ -1,0 +1,28 @@
+.container{
+  box-sizing: border-box;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 25%;
+}
+
+.p-16{
+  padding: 16px;
+}
+
+mat-card{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.login-main{
+  margin-top: 10%;
+  }
+  mat-card{
+  min-width: 40%;
+  }
