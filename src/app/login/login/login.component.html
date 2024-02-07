@@ -5,7 +5,7 @@
   <button mat-icon-button disabled class="example-icon loi-icon" aria-label="User login">
     <mat-icon>login</mat-icon>
   </button>
-  <button mat-icon-button class="example-icon" aria-label="create account">
+  <button mat-icon-button class="example-icon" aria-label="create account" (click)="createUser();">
     <mat-icon>account_circle</mat-icon>
   </button>
 </mat-toolbar>
@@ -25,8 +25,8 @@
         <input type="password" matInput placeholder="password">
       </mat-form-field>
     </mat-card-content>
-    <mat-card-actions align="start">
-        <button mat-button >Action1</button>
+    <mat-card-actions align="end">
+        <button mat-button (click)="onLogin()" >Login</button>
     </mat-card-actions>
   </mat-card>
 </div>
